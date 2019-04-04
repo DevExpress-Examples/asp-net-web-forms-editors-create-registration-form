@@ -4,8 +4,8 @@
 * [RegisteredPage.aspx](./CS/ASPxEditorsTutorial.Step6/RegisteredPage.aspx)
 * [RegisteredPage.aspx.cs](./CS/ASPxEditorsTutorial.Step6/RegisteredPage.aspx.cs)
 * [RegistrationForm.aspx](./CS/ASPxEditorsTutorial.Step6/RegistrationForm.aspx) (VB: [RegistrationForm.aspx](./VB/ASPxEditorsTutorial.Step6/RegistrationForm.aspx))
-* [RegistrationForm.aspx.cs](./CS/ASPxEditorsTutorial.Step6/RegistrationForm.aspx.cs) (VB: [RegistrationForm.aspx](./VB/ASPxEditorsTutorial.Step6/RegistrationForm.aspx))
-* [UsersList.aspx](./CS/ASPxEditorsTutorial.Step6/UsersList.aspx) (VB: [UsersList.aspx.vb](./VB/ASPxEditorsTutorial.Step6/UsersList.aspx.vb))
+* [RegistrationForm.aspx.cs](./CS/ASPxEditorsTutorial.Step6/RegistrationForm.aspx.cs) (VB: [RegistrationForm.aspx.vb](./VB/ASPxEditorsTutorial.Step6/RegistrationForm.aspx.vb))
+* [UsersList.aspx](./CS/ASPxEditorsTutorial.Step6/UsersList.aspx) (VB: [UsersList.aspx](./VB/ASPxEditorsTutorial.Step6/UsersList.aspx))
 * [UsersList.aspx.cs](./CS/ASPxEditorsTutorial.Step6/UsersList.aspx.cs) (VB: [UsersList.aspx.vb](./VB/ASPxEditorsTutorial.Step6/UsersList.aspx.vb))
 <!-- default file list end -->
 # Tutorial - Creating a registration form using ASPxEditors
