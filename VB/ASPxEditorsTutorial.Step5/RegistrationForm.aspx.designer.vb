@@ -31,7 +31,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected registrationFormLayout As Global.DevExpress.Web.ASPxFormLayout.ASPxFormLayout
+		Protected registrationFormLayout As Global.DevExpress.Web.ASPxFormLayout
 
 		''' <summary>
 		''' firstNameTextBox control.
@@ -40,7 +40,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected firstNameTextBox As Global.DevExpress.Web.ASPxEditors.ASPxTextBox
+		Protected firstNameTextBox As Global.DevExpress.Web.ASPxTextBox
 
 		''' <summary>
 		''' lastNameTextBox control.
@@ -49,7 +49,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected lastNameTextBox As Global.DevExpress.Web.ASPxEditors.ASPxTextBox
+		Protected lastNameTextBox As Global.DevExpress.Web.ASPxTextBox
 
 		''' <summary>
 		''' genderRadioButtonList control.
@@ -58,7 +58,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected genderRadioButtonList As Global.DevExpress.Web.ASPxEditors.ASPxRadioButtonList
+		Protected genderRadioButtonList As Global.DevExpress.Web.ASPxRadioButtonList
 
 		''' <summary>
 		''' birthDateEdit control.
@@ -67,7 +67,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected birthDateEdit As Global.DevExpress.Web.ASPxEditors.ASPxDateEdit
+		Protected birthDateEdit As Global.DevExpress.Web.ASPxDateEdit
 
 		''' <summary>
 		''' countryComboBox control.
@@ -76,7 +76,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected countryComboBox As Global.DevExpress.Web.ASPxEditors.ASPxComboBox
+		Protected countryComboBox As Global.DevExpress.Web.ASPxComboBox
 
 		''' <summary>
 		''' LayoutItemNestedControlContainer1 control.
@@ -85,7 +85,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected LayoutItemNestedControlContainer1 As Global.DevExpress.Web.ASPxFormLayout.LayoutItemNestedControlContainer
+		Protected LayoutItemNestedControlContainer1 As Global.DevExpress.Web.LayoutItemNestedControlContainer
 
 		''' <summary>
 		''' cityComboBox control.
@@ -94,7 +94,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected cityComboBox As Global.DevExpress.Web.ASPxEditors.ASPxComboBox
+		Protected cityComboBox As Global.DevExpress.Web.ASPxComboBox
 
 		''' <summary>
 		''' eMailTextBox control.
@@ -103,7 +103,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected eMailTextBox As Global.DevExpress.Web.ASPxEditors.ASPxTextBox
+		Protected eMailTextBox As Global.DevExpress.Web.ASPxTextBox
 
 		''' <summary>
 		''' passwordTextBox control.
@@ -112,7 +112,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected passwordTextBox As Global.DevExpress.Web.ASPxEditors.ASPxTextBox
+		Protected passwordTextBox As Global.DevExpress.Web.ASPxTextBox
 
 		''' <summary>
 		''' ratingControl control.
@@ -121,7 +121,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected ratingControl As Global.DevExpress.Web.ASPxRatingControl.ASPxRatingControl
+		Protected ratingControl As Global.DevExpress.Web.ASPxRatingControl
 
 		''' <summary>
 		''' ratingLabel control.
@@ -130,7 +130,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected ratingLabel As Global.DevExpress.Web.ASPxEditors.ASPxLabel
+		Protected ratingLabel As Global.DevExpress.Web.ASPxLabel
 
 		''' <summary>
 		''' confirmPasswordTextBox control.
@@ -139,7 +139,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected confirmPasswordTextBox As Global.DevExpress.Web.ASPxEditors.ASPxTextBox
+		Protected confirmPasswordTextBox As Global.DevExpress.Web.ASPxTextBox
 
 		''' <summary>
 		''' Captcha control.
@@ -148,7 +148,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected Captcha As Global.DevExpress.Web.ASPxEditors.ASPxCaptcha
+		Protected Captcha As Global.DevExpress.Web.ASPxCaptcha
 
 		''' <summary>
 		''' signUp control.
@@ -157,7 +157,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected signUp As Global.DevExpress.Web.ASPxEditors.ASPxButton
+		Protected signUp As Global.DevExpress.Web.ASPxButton
 
 		''' <summary>
 		''' hyperLinkUsersPage control.
@@ -166,7 +166,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected hyperLinkUsersPage As Global.DevExpress.Web.ASPxEditors.ASPxHyperLink
+		Protected hyperLinkUsersPage As Global.DevExpress.Web.ASPxHyperLink
 
 		''' <summary>
 		''' AccessDataSourceCountry control.

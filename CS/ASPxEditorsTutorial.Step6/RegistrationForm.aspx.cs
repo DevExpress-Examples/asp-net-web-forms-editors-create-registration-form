@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 using System.Data.OleDb;
 using System.Configuration;
 using System.Text.RegularExpressions;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 
 namespace ASPxEditorsTutorial {
 	public partial class RegistrationForm : System.Web.UI.Page {
-		protected void cityComboBox_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+		protected void cityComboBox_Callback(object sender, DevExpress.Web.CallbackEventArgsBase e) {
 			if (string.IsNullOrEmpty(e.Parameter)) return;
 			AccessDataSourceCities.SelectParameters[0].DefaultValue = e.Parameter;
 			cityComboBox.DataBind();
@@ -44,7 +44,7 @@ namespace ASPxEditorsTutorial {
 			return connection;
 		}
 
-		protected void CheckEmailCallback_Callback(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e) {
+		protected void CheckEmailCallback_Callback(object source, DevExpress.Web.CallbackEventArgs e) {
 			e.Result = GetIsEmailExist(eMailTextBox.Text).ToString();
 		}
 
@@ -59,7 +59,7 @@ namespace ASPxEditorsTutorial {
 			}
 		}
 
-		protected void eMailTextBox_Validation(object sender, DevExpress.Web.ASPxEditors.ValidationEventArgs e) {
+		protected void eMailTextBox_Validation(object sender, DevExpress.Web.ValidationEventArgs e) {
 			if (!Page.IsCallback) {
 
 				e.IsValid = e.Value != null;
@@ -83,13 +83,13 @@ namespace ASPxEditorsTutorial {
 			}
 		}
 
-		protected void requiredTextBox_Validation(object sender, DevExpress.Web.ASPxEditors.ValidationEventArgs e) {
+		protected void requiredTextBox_Validation(object sender, DevExpress.Web.ValidationEventArgs e) {
 			e.IsValid = e.Value != null;
 			if (e.IsValid)
 				e.ErrorText = "This field is required";
 		}
 
-		protected void password_Validation(object sender, DevExpress.Web.ASPxEditors.ValidationEventArgs e) {
+		protected void password_Validation(object sender, DevExpress.Web.ValidationEventArgs e) {
 			e.IsValid = e.Value != null;
 			if (!e.IsValid) {
 				e.ErrorText = "Password is required";

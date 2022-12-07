@@ -11,7 +11,7 @@ Imports System.Configuration
 Namespace ASPxEditorsTutorial
 	Partial Public Class RegistrationForm
 		Inherits System.Web.UI.Page
-		Protected Sub cityComboBox_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+		Protected Sub cityComboBox_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 			If String.IsNullOrEmpty(e.Parameter) Then
 				Return
 			End If

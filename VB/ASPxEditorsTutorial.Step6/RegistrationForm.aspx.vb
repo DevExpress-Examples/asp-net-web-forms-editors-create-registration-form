@@ -11,7 +11,7 @@ Imports System.Configuration
 Namespace ASPxEditorsTutorial
 	Partial Public Class RegistrationForm
 		Inherits System.Web.UI.Page
-		Protected Sub cityComboBox_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+		Protected Sub cityComboBox_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 			If String.IsNullOrEmpty(e.Parameter) Then
 				Return
 			End If
@@ -45,7 +45,7 @@ Namespace ASPxEditorsTutorial
 			Return connection
 		End Function
 
-		Protected Sub CheckEmailCallback_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+		Protected Sub CheckEmailCallback_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
 			e.Result = GetIsEmailExist(eMailTextBox.Text).ToString()
 		End Sub
 
@@ -60,7 +60,7 @@ Namespace ASPxEditorsTutorial
 			End Using
 		End Function
 
-		Protected Sub eMailTextBox_Validation(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxEditors.ValidationEventArgs)
+		Protected Sub eMailTextBox_Validation(ByVal sender As Object, ByVal e As DevExpress.Web.ValidationEventArgs)
 			If (Not Page.IsCallback) Then
 				e.IsValid = Not GetIsEmailExist(e.Value.ToString())
 				e.ErrorText = "Sorry, this e-mail belongs to an existing account"

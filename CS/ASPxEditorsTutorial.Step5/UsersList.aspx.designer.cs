@@ -28,7 +28,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxHyperLink backHyperLink;
+        protected global::DevExpress.Web.ASPxHyperLink backHyperLink;
         
         /// <summary>
         /// ASPxGridView1 control.
@@ -37,7 +37,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView ASPxGridView1;
+        protected global::DevExpress.Web.ASPxGridView ASPxGridView1;
         
         /// <summary>
         /// AccessDataSourceUsers control.

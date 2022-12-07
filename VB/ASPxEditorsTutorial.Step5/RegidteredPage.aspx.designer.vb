@@ -31,7 +31,7 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected hyperLinkUsersPage As Global.DevExpress.Web.ASPxEditors.ASPxHyperLink
+		Protected hyperLinkUsersPage As Global.DevExpress.Web.ASPxHyperLink
 
 		''' <summary>
 		''' hyperLinkRegForm control.
@@ -40,6 +40,6 @@ Namespace ASPxEditorsTutorial
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected hyperLinkRegForm As Global.DevExpress.Web.ASPxEditors.ASPxHyperLink
+		Protected hyperLinkRegForm As Global.DevExpress.Web.ASPxHyperLink
 	End Class
 End Namespace

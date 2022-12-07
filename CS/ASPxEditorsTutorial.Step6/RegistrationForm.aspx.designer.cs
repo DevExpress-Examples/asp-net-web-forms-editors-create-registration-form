@@ -28,7 +28,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxFormLayout.ASPxFormLayout registrationFormLayout;
+        protected global::DevExpress.Web.ASPxFormLayout registrationFormLayout;
         
         /// <summary>
         /// firstNameTextBox control.
@@ -37,7 +37,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox firstNameTextBox;
+        protected global::DevExpress.Web.ASPxTextBox firstNameTextBox;
         
         /// <summary>
         /// lastNameTextBox control.
@@ -46,7 +46,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox lastNameTextBox;
+        protected global::DevExpress.Web.ASPxTextBox lastNameTextBox;
         
         /// <summary>
         /// genderRadioButtonList control.
@@ -55,7 +55,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxRadioButtonList genderRadioButtonList;
+        protected global::DevExpress.Web.ASPxRadioButtonList genderRadioButtonList;
         
         /// <summary>
         /// birthDateEdit control.
@@ -64,7 +64,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit birthDateEdit;
+        protected global::DevExpress.Web.ASPxDateEdit birthDateEdit;
         
         /// <summary>
         /// countryComboBox control.
@@ -73,7 +73,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox countryComboBox;
+        protected global::DevExpress.Web.ASPxComboBox countryComboBox;
         
         /// <summary>
         /// LayoutItemNestedControlContainer1 control.
@@ -82,7 +82,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxFormLayout.LayoutItemNestedControlContainer LayoutItemNestedControlContainer1;
+        protected global::DevExpress.Web.LayoutItemNestedControlContainer LayoutItemNestedControlContainer1;
         
         /// <summary>
         /// cityComboBox control.
@@ -91,7 +91,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cityComboBox;
+        protected global::DevExpress.Web.ASPxComboBox cityComboBox;
         
         /// <summary>
         /// eMailTextBox control.
@@ -100,7 +100,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox eMailTextBox;
+        protected global::DevExpress.Web.ASPxTextBox eMailTextBox;
         
         /// <summary>
         /// checkEmailImage control.
@@ -109,7 +109,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxImage checkEmailImage;
+        protected global::DevExpress.Web.ASPxImage checkEmailImage;
         
         /// <summary>
         /// loadingPanel control.
@@ -118,7 +118,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxLoadingPanel.ASPxLoadingPanel loadingPanel;
+        protected global::DevExpress.Web.ASPxLoadingPanel loadingPanel;
         
         /// <summary>
         /// emailStatusLabel control.
@@ -127,7 +127,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel emailStatusLabel;
+        protected global::DevExpress.Web.ASPxLabel emailStatusLabel;
         
         /// <summary>
         /// passwordTextBox control.
@@ -136,7 +136,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox passwordTextBox;
+        protected global::DevExpress.Web.ASPxTextBox passwordTextBox;
         
         /// <summary>
         /// ratingControl control.
@@ -145,7 +145,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRatingControl.ASPxRatingControl ratingControl;
+        protected global::DevExpress.Web.ASPxRatingControl ratingControl;
         
         /// <summary>
         /// ratingLabel control.
@@ -154,7 +154,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel ratingLabel;
+        protected global::DevExpress.Web.ASPxLabel ratingLabel;
         
         /// <summary>
         /// confirmPasswordTextBox control.
@@ -163,7 +163,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox confirmPasswordTextBox;
+        protected global::DevExpress.Web.ASPxTextBox confirmPasswordTextBox;
         
         /// <summary>
         /// Captcha control.
@@ -172,7 +172,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxCaptcha Captcha;
+        protected global::DevExpress.Web.ASPxCaptcha Captcha;
         
         /// <summary>
         /// signUp control.
@@ -181,7 +181,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton signUp;
+        protected global::DevExpress.Web.ASPxButton signUp;
         
         /// <summary>
         /// hyperLinkUsersPage control.
@@ -190,7 +190,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxHyperLink hyperLinkUsersPage;
+        protected global::DevExpress.Web.ASPxHyperLink hyperLinkUsersPage;
         
         /// <summary>
         /// AccessDataSourceCountry control.
@@ -217,6 +217,6 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxCallback.ASPxCallback CheckEmailCallback;
+        protected global::DevExpress.Web.ASPxCallback CheckEmailCallback;
     }
 }

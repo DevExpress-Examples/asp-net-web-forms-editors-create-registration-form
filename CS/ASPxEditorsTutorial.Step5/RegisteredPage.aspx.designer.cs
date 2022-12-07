@@ -28,7 +28,7 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxHyperLink hyperLinkUsersPage;
+        protected global::DevExpress.Web.ASPxHyperLink hyperLinkUsersPage;
         
         /// <summary>
         /// hyperLinkRegForm control.
@@ -37,6 +37,6 @@ namespace ASPxEditorsTutorial {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxHyperLink hyperLinkRegForm;
+        protected global::DevExpress.Web.ASPxHyperLink hyperLinkRegForm;
     }
 }

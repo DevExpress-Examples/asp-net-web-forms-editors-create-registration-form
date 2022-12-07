@@ -9,7 +9,7 @@ using System.Configuration;
 
 namespace ASPxEditorsTutorial {
     public partial class RegistrationForm : System.Web.UI.Page {
-        protected void cityComboBox_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+        protected void cityComboBox_Callback(object sender, DevExpress.Web.CallbackEventArgsBase e) {
             if(string.IsNullOrEmpty(e.Parameter)) return;
             AccessDataSourceCities.SelectParameters[0].DefaultValue = e.Parameter;
             cityComboBox.DataBind();
