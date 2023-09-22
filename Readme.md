@@ -32,12 +32,12 @@ We use **Visual Studio 2010** and target **.NET Framework 4.0**. Data is stored 
   
 This example is arranged in six sections and contains a project for each section.
 
-* [1. Create the registration form layout]() (result code: [ASPxEditorsTutorial.Step1](CS/ASPxEditorsTutorial.Step1))
-* [2. Customize editors and add built-in client-side validation]() (result code: [ASPxEditorsTutorial.Step2](CS/ASPxEditorsTutorial.Step2))
-* [3. Add a Cascading Combo Boxes feature]() (result code: [ASPxEditorsTutorial.Step3](CS/ASPxEditorsTutorial.Step3))
-* [4. Save data to database]() (result code: [ASPxEditorsTutorial.Step4](CS/ASPxEditorsTutorial.Step4))
-* [5. Implement the password verification mechanism]() (result code: [ASPxEditorsTutorial.Step5](CS/ASPxEditorsTutorial.Step5))
-* [6. Check the entered email address]() (result code: [ASPxEditorsTutorial.Step6](CS/ASPxEditorsTutorial.Step6))
+* [1. Create the registration form layout](#1-create-the-registration-form-layout) (result code: [ASPxEditorsTutorial.Step1](CS/ASPxEditorsTutorial.Step1))
+* [2. Customize editors and add built-in client-side validation](#2-customize-editors-and-add-built-in-client-side-validation) (result code: [ASPxEditorsTutorial.Step2](CS/ASPxEditorsTutorial.Step2))
+* [3. Add a Cascading Combo Boxes feature](#3-add-a-cascading-combo-boxes-feature) (result code: [ASPxEditorsTutorial.Step3](CS/ASPxEditorsTutorial.Step3))
+* [4. Save data to database](#4-save-data-to-database) (result code: [ASPxEditorsTutorial.Step4](CS/ASPxEditorsTutorial.Step4))
+* [5. Implement the password verification mechanism](#5-implement-the-password-verification-mechanism) (result code: [ASPxEditorsTutorial.Step5](CS/ASPxEditorsTutorial.Step5))
+* [6. Check the entered email address](#6-check-the-entered-email-address) (result code: [ASPxEditorsTutorial.Step6](CS/ASPxEditorsTutorial.Step6))
 ## 1. Create the registration form layout 
 ### 1.1. Create a project
   
@@ -65,7 +65,7 @@ In the **Choose Theme** tab, select the ***Metropolis*** theme and press the **C
 Add a new page named **RegistrationForm**:  
   
 ![](images/d4827a08-fde7-4f99-bb13-29222add9908.jpg)  
-We will use the following editors on the registration form :  
+We will use the following editors on the registration form:  
   
 [ASPxTextBox](http://documentation.devexpress.com/#AspNet/CustomDocument11586) for the First Name, Last Name, Email, Password and Confirm Password fields.  
 [ASPxRadioButtonList](http://documentation.devexpress.com/#AspNet/CustomDocument10778) for the Gender field.  
@@ -126,9 +126,7 @@ Let's create two additional groups in the same way:
      - ***Captcha*** (contains ASPxCaptcha, this item does not have a caption));  
      - ***SignUp*** (contains ASPxButton);  
   
-> [!NOTE]
-> You may choose to create groups by copying the markup of previously created items and changing attribute values as necessary. 
-  
+ 
 With the form fields created, the markup is as follows:  
   
 ```aspx  
@@ -321,7 +319,7 @@ Set the [IncrementalFilteringMode](http://documentation.devexpress.com/#AspNet/D
   
 ![](images/5c3560ca-93e3-483a-9dc3-9b8546775490.jpg)  
 
-### 2.3. Setting built-in client-side validation
+### 2.3. Set built-in client-side validation
   
 Our registration form needs some required fields. We can add client-side validation for our editors to prevent end-user submission of empty values for required fields. Leaving a required field empty will display a corresponding error.  
 Enable client-side validation by setting the following properties at the [ValidationSettings](http://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxEditorsValidationSettingstopic) property:  
@@ -348,7 +346,7 @@ To validate an entered Email, add a regular expression that will determine if ty
   
 ![](images/a51f7ab9-732a-4b84-a8b2-f8dce6edb684.jpg)  
   
-### 2.4. Setting the ASPxDateEdit's calendar initial date
+### 2.4. Set the ASPxDateEdit's calendar initial date
   
 We use ASPxDateEdit for the end-user's birth date. However, when we open the editor's calendar, it displays the current date. Let's change the initial visible date. We will use the [Client-Side Functionality](http://documentation.devexpress.com/#AspNet/CustomDocument6908) of our controls to manipulate controls on the client side.  
   
@@ -660,7 +658,7 @@ We now have the following markup:
 The user list is displayed as follows:  
 ![](images/6fe0e4f2-e8bc-4e30-8459-d1560753bc19.jpg)  
   
-### 4.4. Adding links to navigate between pages.
+### 4.4. Add links to navigate between pages.
   
 We need to add links for end-user navigation between pages. Drop a ASPxHyperLink from the **Common controls** tab onto the user list page. This link will point back to the registration form. Set the **Text** property to ***\<- Back to the Registration Form*** and the **NavigateUrl** property to ***RegistrationForm.aspx***.  
   
