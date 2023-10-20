@@ -91,7 +91,7 @@ Select the ***Edit Layout...*** option in the ***Smart tag*** of ASPxFormLayout 
   
 ![](images/abaacca2-a996-4367-abe2-0593c0b013fe.jpg)  
 Create a new layout group and set the following properties:  
-![](images/e7ea668c-7ac5-404c-a181-c591fe98e866)![](images/564c20a6-9f65-4b89-baf1-f0de1a2f73c3.jpg)  
+![](images/e7ea668c-7ac5-404c-a181-c591fe98e866.jpg)![](images/564c20a6-9f65-4b89-baf1-f0de1a2f73c3.jpg)  
 Add layout item with ASPxTextBox inside to the Layout Group:  
 ![](images/a041ad23-b052-40d4-b447-a920eac84fcb.jpg)  
 Set the layout item's caption to ***Name***:  
