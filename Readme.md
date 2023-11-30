@@ -32,12 +32,12 @@ We use **Visual Studio 2010** and target **.NET Framework 4.0**. Data is stored 
   
 This example is arranged in six sections and contains a project for each section.
 
-* [1. Create the registration form layout](#1-create-the-registration-form-layout) (result code: [ASPxEditorsTutorial.Step1](CS/ASPxEditorsTutorial.Step1))
-* [2. Customize editors and add built-in client-side validation](#2-customize-editors-and-add-built-in-client-side-validation) (result code: [ASPxEditorsTutorial.Step2](CS/ASPxEditorsTutorial.Step2))
-* [3. Add a Cascading Combo Boxes feature](#3-add-a-cascading-combo-boxes-feature) (result code: [ASPxEditorsTutorial.Step3](CS/ASPxEditorsTutorial.Step3))
-* [4. Save data to database](#4-save-data-to-database) (result code: [ASPxEditorsTutorial.Step4](CS/ASPxEditorsTutorial.Step4))
-* [5. Implement the password verification mechanism](#5-implement-the-password-verification-mechanism) (result code: [ASPxEditorsTutorial.Step5](CS/ASPxEditorsTutorial.Step5))
-* [6. Check the entered email address](#6-check-the-entered-email-address) (result code: [ASPxEditorsTutorial.Step6](CS/ASPxEditorsTutorial.Step6))
+* [1. Create the registration form layout](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-create-registration-form#1-create-the-registration-form-layout) (result code: [ASPxEditorsTutorial.Step1](CS/ASPxEditorsTutorial.Step1))
+* [2. Customize editors and add built-in client-side validation](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-create-registration-form#2-customize-editors-and-add-built-in-client-side-validation) (result code: [ASPxEditorsTutorial.Step2](CS/ASPxEditorsTutorial.Step2))
+* [3. Add a Cascading Combo Boxes feature](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-create-registration-form#3-add-a-cascading-combo-boxes-feature) (result code: [ASPxEditorsTutorial.Step3](CS/ASPxEditorsTutorial.Step3))
+* [4. Save data to database](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-create-registration-form#4-save-data-to-database) (result code: [ASPxEditorsTutorial.Step4](CS/ASPxEditorsTutorial.Step4))
+* [5. Implement the password verification mechanism](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-create-registration-form#5-implement-the-password-verification-mechanism) (result code: [ASPxEditorsTutorial.Step5](CS/ASPxEditorsTutorial.Step5))
+* [6. Check the entered email address](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-create-registration-form#6-check-the-entered-email-address) (result code: [ASPxEditorsTutorial.Step6](CS/ASPxEditorsTutorial.Step6))
 ## 1. Create the registration form layout 
 ### 1.1. Create a project
   
