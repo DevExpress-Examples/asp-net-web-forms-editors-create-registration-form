@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="RegistrationForm.aspx.vb"
 	Inherits="ASPxEditorsTutorial.RegistrationForm" %>
 
-<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 	Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
