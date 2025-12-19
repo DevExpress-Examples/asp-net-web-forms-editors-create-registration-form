@@ -1,7 +1,7 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="RegistrationForm.aspx.vb"
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="RegistrationForm.aspx.vb"
 	Inherits="ASPxEditorsTutorial.RegistrationForm" %>
 
-<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 	Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
@@ -74,7 +74,7 @@
 					return "The password is too simple";
 			} else if (editor === confirmPasswordTextBox) {
 				if (passwordTextBox.GetText() !== confirmPasswordTextBox.GetText())
-					return "The password you entered do not match";
+					return "The passwords you entered do not match";
 			}
 			return "";
 		}
@@ -92,7 +92,8 @@
 						<LayoutItemNestedControlCollection>
 							<dx:LayoutItemNestedControlContainer>
 								<dx:ASPxTextBox ID="firstNameTextBox" runat="server" NullText="First Name..." Width="170px">
-									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" SetFocusOnError="True">
+									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" SetFocusOnError="True"
+										>
 										<RequiredField IsRequired="True" />
 									</ValidationSettings>
 								</dx:ASPxTextBox>
@@ -103,7 +104,7 @@
 						<LayoutItemNestedControlCollection>
 							<dx:LayoutItemNestedControlContainer>
 								<dx:ASPxTextBox ID="lastNameTextBox" runat="server" NullText="Last Name..." Width="170px">
-									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" SetFocusOnError="True">
+									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" SetFocusOnError="True" >
 										<RequiredField IsRequired="True" />
 									</ValidationSettings>
 								</dx:ASPxTextBox>
@@ -119,7 +120,7 @@
 										<dx:ListEditItem Text="Male" Value="Male" />
 										<dx:ListEditItem Text="Female" Value="Female" />
 									</Items>
-									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text">
+									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" >
 										<RequiredField IsRequired="True" />
 									</ValidationSettings>
 									<Border BorderStyle="None" />
@@ -131,7 +132,7 @@
 						<LayoutItemNestedControlCollection>
 							<dx:LayoutItemNestedControlContainer>
 								<dx:ASPxDateEdit ID="birthDateEdit" runat="server">
-									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" SetFocusOnError="True">
+									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" SetFocusOnError="True" >
 										<RequiredField IsRequired="True" />
 									</ValidationSettings>
 									<ClientSideEvents Init="function(s, e){  s.GetCalendar().SetVisibleDate(new Date (1995,1,1)); }" />
@@ -166,21 +167,21 @@
 			<dx:LayoutGroup Caption="Authorization Data" GroupBoxDecoration="HeadingLine" SettingsItemCaptions-HorizontalAlign="Right"
 				ColCount="2">
 				<Items>
-					<dx:LayoutItem Caption="E-mail">
+					<dx:LayoutItem Caption="Email">
 						<LayoutItemNestedControlCollection>
 							<dx:LayoutItemNestedControlContainer>
 								<dx:ASPxTextBox runat="server" ID="eMailTextBox" Width="170px" ClientInstanceName="eMailTextBox"
 									AutoCompleteType="Email">
 									<ValidationSettings ErrorDisplayMode="Text" Display="Dynamic" ErrorTextPosition="Bottom"
-										SetFocusOnError="true">
-										<RegularExpression ErrorText="Invalid e-mail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" />
+										SetFocusOnError="true" >
+										<RegularExpression ErrorText="Invalid email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"/>
 										<RequiredField IsRequired="True" ErrorText="The value is required" />
 									</ValidationSettings>
 								</dx:ASPxTextBox>
 							</dx:LayoutItemNestedControlContainer>
 						</LayoutItemNestedControlCollection>
 					</dx:LayoutItem>
-					<dx:LayoutItem Caption="Check e-mail" ShowCaption="False">
+					<dx:LayoutItem Caption="Check email" ShowCaption="False">
 						<LayoutItemNestedControlCollection>
 							<dx:LayoutItemNestedControlContainer>
 							</dx:LayoutItemNestedControlContainer>
@@ -194,7 +195,7 @@
 									<ClientSideEvents Init="ApplyCurrentPasswordStrength" KeyUp="ApplyCurrentPasswordStrength"
 										Validation="OnPassValidation" />
 									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" ErrorTextPosition="Bottom"
-										SetFocusOnError="True">
+										SetFocusOnError="True" >
 										<RequiredField ErrorText="The value is required" IsRequired="True" />
 									</ValidationSettings>
 								</dx:ASPxTextBox>
@@ -219,7 +220,7 @@
 									Password="True" Width="170px">
 									<ClientSideEvents Validation="OnPassValidation" />
 									<ValidationSettings Display="Dynamic" ErrorDisplayMode="Text" ErrorTextPosition="Bottom"
-										SetFocusOnError="True">
+										SetFocusOnError="True" >
 										<RequiredField ErrorText="The value is required" IsRequired="True" />
 									</ValidationSettings>
 								</dx:ASPxTextBox>
@@ -262,8 +263,7 @@
 	</dx:ASPxHyperLink>
 	<asp:AccessDataSource ID="AccessDataSourceCountry" runat="server" DataFile="~/App_Data/WorldCities.mdb"
 		SelectCommand="SELECT * FROM [Countries]" />
-	<asp:AccessDataSource ID="AccessDataSourceCities" runat="server" 
-		DataFile="~/App_Data/WorldCities.mdb" 
+	<asp:AccessDataSource ID="AccessDataSourceCities" runat="server" DataFile="~/App_Data/WorldCities.mdb"
 		SelectCommand="SELECT [City] FROM [Cities] WHERE ([CountryId] = ?)">
 		<SelectParameters>
 			<asp:Parameter Name="CountryId" Type="Int32" />

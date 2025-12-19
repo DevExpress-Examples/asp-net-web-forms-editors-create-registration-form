@@ -1,6 +1,6 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="UsersList.aspx.vb" Inherits="ASPxEditorsTutorial.UsersList" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="UsersList.aspx.vb" Inherits="ASPxEditorsTutorial.UsersList" %>
 
-<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.v24.2, Version=24.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 	Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -11,7 +11,8 @@
 <body>
 	<form id="form1" runat="server">
 	<div>
-		<dx:ASPxHyperLink ID="backHyperLink" runat="server" Text="<- Back to the Registration Form" NavigateUrl="RegistrationForm.aspx" />
+		<dx:ASPxHyperLink ID="backHyperLink" runat="server" Text="<- Back to the Registration Form"
+			NavigateUrl="RegistrationForm.aspx" />
 		<br />
 		<dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="AccessDataSourceUsers"
 			KeyFieldName="UserID">

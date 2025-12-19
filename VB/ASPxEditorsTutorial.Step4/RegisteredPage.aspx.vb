@@ -4,7 +4,7 @@ Imports System.Web.UI.WebControls
 
 Namespace ASPxEditorsTutorial
 
-    Public Partial Class UsersList
+    Public Partial Class RegisteredPage
         Inherits Page
 
         Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)

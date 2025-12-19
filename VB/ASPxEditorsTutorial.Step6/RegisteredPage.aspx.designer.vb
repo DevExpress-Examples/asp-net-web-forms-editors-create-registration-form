@@ -8,7 +8,7 @@
 '------------------------------------------------------------------------------
 Namespace ASPxEditorsTutorial
 
-    Public Partial Class UsersList
+    Public Partial Class RegisteredPage
 
         ''' <summary>
         ''' form1 control.
@@ -20,30 +20,21 @@ Namespace ASPxEditorsTutorial
         Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
         ''' <summary>
-        ''' backHyperLink control.
+        ''' hyperLinkUsersPage control.
         ''' </summary>
         ''' <remarks>
         ''' Auto-generated field.
         ''' To modify move field declaration from designer file to code-behind file.
         ''' </remarks>
-        Protected backHyperLink As Global.DevExpress.Web.ASPxHyperLink
+        Protected hyperLinkUsersPage As Global.DevExpress.Web.ASPxHyperLink
 
         ''' <summary>
-        ''' ASPxGridView1 control.
+        ''' hyperLinkRegForm control.
         ''' </summary>
         ''' <remarks>
         ''' Auto-generated field.
         ''' To modify move field declaration from designer file to code-behind file.
         ''' </remarks>
-        Protected ASPxGridView1 As Global.DevExpress.Web.ASPxGridView
-
-        ''' <summary>
-        ''' AccessDataSourceUsers control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected AccessDataSourceUsers As Global.System.Web.UI.WebControls.AccessDataSource
+        Protected hyperLinkRegForm As Global.DevExpress.Web.ASPxHyperLink
     End Class
 End Namespace
