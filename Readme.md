@@ -1172,7 +1172,7 @@ protected void password_Validation(object sender, DevExpress.Web.ASPxEditors.Val
 Now our Registration Form is completely ready. This form contains checks for null values in required fields, a convenient mechanism for choosing country and city, password strength verification and checking whether or not the entered email address already exists in our database. In addition, a CAPTCHA protects against registration by bots:  
 ![](images/25ef81c9-caa2-4dba-8d73-7915ffedbe90.jpg)  
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-editors-create-registration-form&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-editors-create-registration-form&~~~was_helpful=no)
 
