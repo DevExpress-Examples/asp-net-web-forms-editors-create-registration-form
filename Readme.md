@@ -119,7 +119,7 @@ Set its **RepeatDirection** property to ***Horizontal***, **Width** to ***170px*
 Let's create two additional groups in the same way:  
 ***Authorization Data*** group, containing the following items:  
      - ***Email*** (contains ASPxTextBox);  
-     - ***Check email*** (empty for now, it will be customized in [Part 6 of this tutorial](https://supportcenter.devexpress.com/internal/ticket/details/KA18768#));  
+     - ***Check email*** (empty for now, it will be customized in [Part 6 of this tutorial](https://supportcenter.devexpress.com/ticket/details/KA18768#));  
      - ***Password*** (contains ASPxTextBox);  
      - ***Password safety*** (contains ASPxRatingControl, this item does not have a caption);  
      - ***Confirm password*** (contains ASPxTextBox);  
