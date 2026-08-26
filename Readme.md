@@ -27,7 +27,7 @@ By the end of this tutorial we will have a page with the following registration 
 ![](images/5f98cdc1-a51b-4145-8d9c-ac471160d1e1.jpg)  
   
 ## Tools and frameworks
-We use **Visual Studio 2010** and target **.NET Framework 4.0**. Data is stored in a **Microsoft Office Access 2003** database file. Please note our database data is randomly generated mock data.
+We use **Visual Studio 2010** and target **.NET Framework 4.7.2**. Data is stored in a **Microsoft Office Access 2003** database file. Please note our database data is randomly generated mock data.
   
 ## Navigating the tutorial
   
